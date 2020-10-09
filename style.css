@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000000;
+  color: #FFFFFF;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#title, #subtitle {
+  text-align: center;
+  font-family: 'Oswald', sans-ms
+}
+
+#title {
+  font-size: 2.4rem;
+}
+
+#subtitle {
+  font-size: 1.2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+#img-div {
+  padding: 20px;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0 10% 0 10%;
+  line-height: 1.5rem;
+}
+#career, #family, #prizes {
+  margin: 1%;
+}
+ul {
+  list-style: none;
+}
+
+#links {
+  text-align: center;
+}
+#tribute-link {
+  text-decoration: none;
+}
+#warning {
+  color: red;
+}
+
+#you {
+  color: black;
+  background: #FFFFFF
+}
+
+#tube {
+  color: #FFFFFF;
+  background: #FF0000
+}
+
+@media (max-width: 550px) {
+  #img-caption {
+    font-size: 1.2rem;
+  }
+}
